@@ -13,6 +13,7 @@ enum
   JAPANESE,
   GERMAN,
 //  ARMENIAN,
+  CZECH,
   
   LANGUAGE_NUM,
 };
@@ -29,6 +30,11 @@ enum
   LABEL_FAN,
   LABEL_SETTINGS,
   LABEL_LEVELING,
+  LABEL_POINT_1,
+  LABEL_POINT_2,
+  LABEL_POINT_3,
+  LABEL_POINT_4,
+  LABEL_ABL,
   LABEL_INC,
   LABEL_DEC,
   LABEL_NOZZLE,
@@ -114,7 +120,7 @@ enum
 };
 
 
-
+bool isCzech(const u8 *const str);
 bool isRussia(const u8 *const str);
 bool isArmenian(const u8 *const str);
 u16 my_strlen(const u8 *const str);
