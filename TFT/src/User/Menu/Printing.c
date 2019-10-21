@@ -92,6 +92,7 @@ void startGcodeExecute(void)
 void endGcodeExecute(void)
 {
   mustStoreCmd("G90\n");
+  #if 0
   mustStoreCmd("G92 E0\n");
   for(TOOL i = BED; i < HEATER_NUM; i++)
   {
@@ -102,6 +103,7 @@ void endGcodeExecute(void)
     mustStoreCmd("%s S0\n", fanCmd[i]);  
   }
   mustStoreCmd("T0\n");
+  #endif
   mustStoreCmd("M18\n");
 }
 

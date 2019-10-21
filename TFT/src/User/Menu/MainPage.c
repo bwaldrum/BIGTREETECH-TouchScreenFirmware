@@ -10,8 +10,10 @@ LABEL_READY,
   {ICON_MOVE,                 LABEL_MOVE},
   {ICON_HOME,                 LABEL_HOME},
   {ICON_PRINT,                LABEL_PRINT},
-  {ICON_EXTRUDE,              LABEL_EXTRUDE},
-  {ICON_FAN,                  LABEL_FAN},
+  //{ICON_EXTRUDE,              LABEL_EXTRUDE},
+  {ICON_BACKGROUND,           LABEL_BACKGROUND},
+  //{ICON_FAN,                  LABEL_FAN},
+  {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_SETTINGS,             LABEL_SETTINGS},
   {ICON_LEVELING,             LABEL_LEVELING},}
 };
@@ -31,8 +33,8 @@ void menuMain(void)
       case KEY_ICON_1: infoMenu.menu[++infoMenu.cur] = menuMove;      break;
       case KEY_ICON_2: infoMenu.menu[++infoMenu.cur] = menuHome;      break;
       case KEY_ICON_3: infoMenu.menu[++infoMenu.cur] = menuPrint;     break;      
-      case KEY_ICON_4: infoMenu.menu[++infoMenu.cur] = menuExtrude;   break;
-      case KEY_ICON_5: infoMenu.menu[++infoMenu.cur] = menuFan;       break;
+      case KEY_ICON_4: /*infoMenu.menu[++infoMenu.cur] = menuExtrude;*/   break;
+      case KEY_ICON_5: /*infoMenu.menu[++infoMenu.cur] = menuFan;*/       break;
       case KEY_ICON_6: infoMenu.menu[++infoMenu.cur] = menuSettings;  break;
       case KEY_ICON_7: infoMenu.menu[++infoMenu.cur] = menuLeveling;  break;
       default:break;

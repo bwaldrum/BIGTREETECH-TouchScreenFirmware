@@ -100,7 +100,8 @@ const char *const en_pack[LABEL_NUM]={
   EN_U_DISK_REMOVED,
   EN_ONBOARDSD,
   EN_READ_ONBOARDSD_ERROR,
-  EN_FILAMENT_RUNOUT
+  EN_FILAMENT_RUNOUT,
+  EN_ZERO_XYZ
 };
 
 const char *const cn_pack[LABEL_NUM]={
@@ -195,7 +196,8 @@ const char *const cn_pack[LABEL_NUM]={
   CN_U_DISK_REMOVED,
   CN_ONBOARDSD,
   CN_READ_ONBOARDSD_ERROR,
-  CN_FILAMENT_RUNOUT
+  CN_FILAMENT_RUNOUT,
+  CN_ZERO_XYZ
 };
 
 const char *const ru_pack[LABEL_NUM]={
@@ -290,7 +292,8 @@ const char *const ru_pack[LABEL_NUM]={
   RU_U_DISK_REMOVED,
   RU_ONBOARDSD,
   RU_READ_ONBOARDSD_ERROR,
-  RU_FILAMENT_RUNOUT
+  RU_FILAMENT_RUNOUT,
+  RU_ZERO_XYZ
 };
 
 const char *const jp_pack[LABEL_NUM]={
@@ -385,7 +388,8 @@ const char *const jp_pack[LABEL_NUM]={
   JP_U_DISK_REMOVED,
   JP_ONBOARDSD,
   JP_READ_ONBOARDSD_ERROR,
-  JP_FILAMENT_RUNOUT
+  JP_FILAMENT_RUNOUT,
+  JP_ZERO_XYZ
 };
 
 const char *const am_pack[LABEL_NUM]={
@@ -480,7 +484,8 @@ const char *const am_pack[LABEL_NUM]={
   AM_U_DISK_REMOVED,
   AM_ONBOARDSD,
   AM_READ_ONBOARDSD_ERROR,
-  AM_FILAMENT_RUNOUT
+  AM_FILAMENT_RUNOUT,
+  AM_ZERO_XYZ
 };
 
 const char *const de_pack[LABEL_NUM]={
@@ -575,7 +580,8 @@ const char *const de_pack[LABEL_NUM]={
   DE_U_DISK_REMOVED,
   DE_ONBOARDSD,
   DE_READ_ONBOARDSD_ERROR,
-  DE_FILAMENT_RUNOUT
+  DE_FILAMENT_RUNOUT,
+  DE_ZERO_XYZ
 };
 
 const char *const cz_pack[LABEL_NUM]={
@@ -670,7 +676,8 @@ const char *const cz_pack[LABEL_NUM]={
   CZ_U_DISK_REMOVED,
   CZ_ONBOARDSD,
   CZ_READ_ONBOARDSD_ERROR,
-  CZ_FILAMENT_RUNOUT
+  CZ_FILAMENT_RUNOUT,
+  CZ_ZERO_XYZ
 };
 
 bool isCzech(const u8 *const str)
