@@ -111,7 +111,9 @@ const char *const en_pack[LABEL_NUM]={
   EN_ONBOARDSD,
   EN_READ_ONBOARDSD_ERROR,
   EN_FILAMENT_RUNOUT,
-  EN_ZERO_XYZ
+  EN_ZERO_XYZ,
+  EN_ZERO_XY,
+  EN_ZERO_Z
 };
 
 const char *const cn_pack[LABEL_NUM]={
@@ -217,7 +219,9 @@ const char *const cn_pack[LABEL_NUM]={
   CN_ONBOARDSD,
   CN_READ_ONBOARDSD_ERROR,
   CN_FILAMENT_RUNOUT,
-  CN_ZERO_XYZ
+  CN_ZERO_XYZ,
+  CN_ZERO_XY,
+  CN_ZERO_Z
 };
 
 const char *const ru_pack[LABEL_NUM]={
@@ -323,7 +327,9 @@ const char *const ru_pack[LABEL_NUM]={
   RU_ONBOARDSD,
   RU_READ_ONBOARDSD_ERROR,
   RU_FILAMENT_RUNOUT,
-  RU_ZERO_XYZ
+  RU_ZERO_XYZ,
+  RU_ZERO_XY,
+  RU_ZERO_Z
 };
 
 const char *const jp_pack[LABEL_NUM]={
@@ -429,7 +435,9 @@ const char *const jp_pack[LABEL_NUM]={
   JP_ONBOARDSD,
   JP_READ_ONBOARDSD_ERROR,
   JP_FILAMENT_RUNOUT,
-  JP_ZERO_XYZ
+  JP_ZERO_XYZ,
+  JP_ZERO_XY,
+  JP_ZERO_Z
 };
 
 const char *const am_pack[LABEL_NUM]={
@@ -535,7 +543,9 @@ const char *const am_pack[LABEL_NUM]={
   AM_ONBOARDSD,
   AM_READ_ONBOARDSD_ERROR,
   AM_FILAMENT_RUNOUT,
-  AM_ZERO_XYZ
+  AM_ZERO_XYZ,
+  AM_ZERO_XY,
+  AM_ZERO_Z
 };
 
 const char *const de_pack[LABEL_NUM]={
@@ -642,6 +652,8 @@ const char *const de_pack[LABEL_NUM]={
   DE_READ_ONBOARDSD_ERROR,
   DE_FILAMENT_RUNOUT,
   DE_ZERO_XYZ
+  DE_ZERO_XY,
+  DE_ZERO_Z
 };
 
 const char *const cz_pack[LABEL_NUM]={
@@ -747,7 +759,9 @@ const char *const cz_pack[LABEL_NUM]={
   CZ_ONBOARDSD,
   CZ_READ_ONBOARDSD_ERROR,
   CZ_FILAMENT_RUNOUT,
-  CZ_ZERO_XYZ
+  CZ_ZERO_XYZ,
+  CZ_ZERO_XY,
+  CZ_ZERO_Z
 };
 
 bool isCzech(const u8 *const str)

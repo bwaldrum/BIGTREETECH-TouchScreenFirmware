@@ -107,6 +107,9 @@
     #define EN_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
     
     #define EN_FILAMENT_RUNOUT      "filament runout!"
-    #define EN_ZERO_XYZ             "Zero X Y Z"
+    #define EN_ZERO_XYZ             "Zero XYZ"
+    #define EN_ZERO_XY              "Zero XY"
+    #define EN_ZERO_Z               "Zero Z"
+
     
 #endif

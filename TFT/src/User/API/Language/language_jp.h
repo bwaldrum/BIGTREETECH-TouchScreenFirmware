@@ -107,6 +107,9 @@
     #define JP_READ_ONBOARDSD_ERROR "�ڲ� mSD���`�ɤ��i��ȡ�꤬����`�k�����ޤ���!"
     
     #define JP_FILAMENT_RUNOUT      "filament runout!"
-    #define JP_ZERO_XYZ             "Set X Y Z to 0"
+    #define JP_ZERO_XYZ             "Zero XYZ"
+    #define JP_ZERO_XY              "Zero XY"
+    #define JP_ZERO_Z               "Zero X"
+
 
 #endif

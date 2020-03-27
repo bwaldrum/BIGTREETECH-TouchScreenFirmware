@@ -6,7 +6,9 @@ const MENUITEMS mainPageItems = {
 // title
 LABEL_READY,
 // icon                       label
- {{ICON_HEAT,                 LABEL_HEAT},
+ {
+  //{ICON_HEAT,                 LABEL_HEAT},
+  {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_MOVE,                 LABEL_MOVE},
   {ICON_HOME,                 LABEL_HOME},
   {ICON_PRINT,                LABEL_PRINT},
@@ -15,7 +17,9 @@ LABEL_READY,
   //{ICON_FAN,                  LABEL_FAN},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_SETTINGS,             LABEL_SETTINGS},
-  {ICON_LEVELING,             LABEL_LEVELING},}
+  //{ICON_LEVELING,             LABEL_LEVELING},
+  {ICON_BACKGROUND,           LABEL_BACKGROUND},
+  }
 };
 
 void menuMain(void)

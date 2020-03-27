@@ -107,6 +107,9 @@
     #define CZ_READ_ONBOARDSD_ERROR "Chyba při čtení Onboard SD!"
 
     #define CZ_FILAMENT_RUNOUT      "Došel filament!"
-    #define CZ_ZERO_XYZ             "Set X Y Z to 0"
+    #define CZ_ZERO_XYZ             "Zero XYZ"
+    #define CZ_ZERO_XY              "Zero XY"
+    #define CZ_ZERO_Z               "Zero X"
+
 
 #endif

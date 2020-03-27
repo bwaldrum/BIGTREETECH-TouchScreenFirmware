@@ -108,6 +108,8 @@
     #define AM_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
     
     #define AM_FILAMENT_RUNOUT      "filament runout!"
-    #define AM_ZERO_XYZ             "Set X Y Z to 0"
+    #define AM_ZERO_XYZ             "Zero XYZ"
+    #define AM_ZERO_XY              "Zero XY"
+    #define AM_ZERO_Z               "Zero X"
 
 #endif

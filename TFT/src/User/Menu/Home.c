@@ -11,8 +11,8 @@ LABEL_HOME,
   {ICON_Y_HOME,               LABEL_Y_HOME},
   {ICON_Z_HOME,               LABEL_Z_HOME},
   {ICON_ZERO_XYZ,             LABEL_ZERO_XYZ},
-  {ICON_BACKGROUND,           LABEL_BACKGROUND},
-  {ICON_BACKGROUND,           LABEL_BACKGROUND},
+  {ICON_ZERO_XY,              LABEL_ZERO_XY},
+  {ICON_ZERO_Z,               LABEL_ZERO_Z},
   {ICON_BACK,                 LABEL_BACK},}
 };
 
@@ -31,6 +31,8 @@ void menuHome(void)
       case KEY_ICON_2: storeCmd("G28 Y\n"); break;
       case KEY_ICON_3: storeCmd("G28 Z\n"); break;
       case KEY_ICON_4: storeCmd("G92 X0 Y0 Z0\n"); break;
+      case KEY_ICON_5: storeCmd("G92 X0 Y0\n"); break;
+      case KEY_ICON_6: storeCmd("G92 Z0\nG0 Z10\n"); break;
       case KEY_ICON_7: infoMenu.cur--;      break;
       default:break;            
     }

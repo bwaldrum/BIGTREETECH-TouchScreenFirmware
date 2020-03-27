@@ -107,6 +107,9 @@
     #define RU_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
     
     #define RU_FILAMENT_RUNOUT      "filament runout!"
-    #define RU_ZERO_XYZ             "Set X Y Z to 0"
+    #define RU_ZERO_XYZ             "Zero XYZ"
+    #define RU_ZERO_XY              "Zero XY"
+    #define RU_ZERO_Z               "Zero X"
+
     
 #endif

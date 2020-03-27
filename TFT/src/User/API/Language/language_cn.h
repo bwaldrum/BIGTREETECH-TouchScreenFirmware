@@ -108,5 +108,8 @@
     
     #define CN_FILAMENT_RUNOUT      "�Ĳ����þ�,������Ĳ�!"
     #define CN_ZERO_XYZ             "Zero X Y Z"
+    #define CN_ZERO_XY              "Zero XY"
+    #define CN_ZERO_Z               "Zero X"
+
 
 #endif
